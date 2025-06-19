@@ -126,15 +126,15 @@
                         <span>OpenReview</span>
                         </a>
                         </span>
-                        <!-- <span class="link-block">
-                        <a href="https://arxiv.org/abs/2303.11162"
+                        <span class="link-block">
+                        <a href="https://arxiv.org/abs/2505.22483"
                            class="external-link button is-normal is-rounded is-dark">
                         <span class="icon">
                         <i class="ai ai-arxiv"></i>
                         </span>
                         <span>arXiv</span>
                         </a>
-                        </span> -->
+                        </span>
                         <!-- Video Link. -->
                         <!-- <span class="link-block">
                         <a href=""
@@ -150,7 +150,8 @@
                         <a href="https://icml.cc/virtual/2025/poster/45060"
                            class="external-link button is-normal is-rounded is-dark">
                         <span class="icon">
-                        <i class="fab fa-github"></i>
+                        <i class="fas fa-users"></i>
+                        <!-- <i class="fab fa-github"></i> -->
                         </span>
                         <span>Conference Webpage</span>
                         </a>
@@ -178,10 +179,13 @@
                <img class="round" style="width:500px" src="./static/images/mmcollapse/teaser.png"/>
             </center>
             <h2 class="subtitle has-text-centered">
-               <span class="dnerf"></span>  When noisy features of one modality exist in entanglement with predictive features of another in the fusion head (the probability of which increases with the number of
+               <span class="dnerf"></span> 
+               <!-- When noisy features of one modality exist in entanglement with predictive features of another in the fusion head (the probability of which increases with the number of
                modalities), it results in a sub-optimal solution wherein the predictive value of the former modality is diminished by the inevitable existence of noisy features. Freeing up rank bottlenecks allows
                for the denoising of such features along independent dimensions without affecting the latter modality, while simultaneously allowing the predictive features of the former modality to contribute
-               to loss reduction.
+               to loss reduction. -->
+               Modality collapse results from noisy features of one modality getting entangled with predictive features of another through polysemantic neurons in the fusion head. Freeing up rank bottlenecks
+               allows for the denoising of such features along independent dimensions, allowing them to contribute to loss reduction without affecting the other modality.
             </h2>
          </div>
       </div>
@@ -269,6 +273,6 @@
       });
    </script>
    <br>
-   <p style="text-align:center"> Last updated: 28 May 2025 | Template Credit: <a href="https://nerfies.github.io/"> Nerfies</a></p>
+   <p style="text-align:center"> Last updated: 19 June 2025 | Template Credit: <a href="https://nerfies.github.io/"> Nerfies</a></p>
    </body>
 </html>
